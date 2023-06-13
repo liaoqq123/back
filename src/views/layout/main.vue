@@ -1,13 +1,18 @@
 <template>
-    <h1>
-        1111
-    </h1>
+    <div class="menu"><Menu></Menu></div>
+    <div class="content"><Content></Content></div>
 </template>
-<script>
-export default {
-    
-}
+<script setup>
+import Content from './content/content.vue'
+import Menu from './menu/menu.vue'
 </script>
-<style>
-    
+<style lang="scss" scoped>
+.menu{
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: black;
+}
 </style>

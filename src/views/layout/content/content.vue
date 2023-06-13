@@ -1,6 +1,6 @@
 <template>
     <h1>
-        2222
+        content
     </h1>
 </template>
 <script>
